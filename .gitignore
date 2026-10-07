@@ -1,0 +1,46 @@
+# Generated images and inference outputs
+results/
+Results/
+outputs/
+
+# Local model downloads and checkpoints
+/model/
+/models/
+/HF_Models/
+/MS_Models/
+/checkpoints/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Local environments and configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
